@@ -1,0 +1,24 @@
+<?xml version ="1.0" encoding="utf-8"?>
+<!DOCTYPE lista_de_personas [
+
+<!ELEMENT lista_de_personas (persona*)>
+<!ELEMENT persona (nombre, fechanacimiento?,sexo?,numeroseguridadsocial?)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT fechanacimiento (#PCDATA)>
+<!ELEMENT sexo (#PCDATA)>
+<!ELEMENT numeroseguridadsocial (#PCDATA)>
+]>
+
+<lista_de_personas>
+	<persona>
+		<nombre> andres</nombre>
+		<fechanacimiento> 18 enero</fechanacimiento>
+		<sexo>masculino </sexo>
+		<numeroseguridadsocial>aw111489 </numeroseguridadsocial>
+	</persona>
+		<persona>
+		<nombre> marcos</nombre>
+		<sexo>masculino </sexo>
+	</persona>
+
+</lista_de_personas>
